@@ -1,5 +1,5 @@
 .container{
-  width: 50%;
+  width: 70%;
   height: 100vh;
   margin: auto;
   text-align: center;
@@ -12,5 +12,6 @@ input{
   font-size: 20px;
 }
 .main{
+  width: 100vw;
   background: linear-gradient(to left, #cc0000 0%, #ff9933 100%);
 }
