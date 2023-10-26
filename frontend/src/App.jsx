@@ -8,7 +8,7 @@ function App() {
   const generateShayari = () => {
     if (keyword !== "") {
       axios
-        .get(`http://localhost:8080/shayari?keyword=${keyword}`)
+        .get(`https://nice-wasp-threads.cyclic.app/shayari?keyword=${keyword}`)
         .then((res) => {
           console.log(res.data.shayari);
           setShayari(res.data.shayari);
