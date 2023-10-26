@@ -1,0 +1,16 @@
+.container{
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  border: 1px solid red;
+  background-color: pink;
+  padding: 0px 10px;
+}
+input{
+  padding: 5px 10px;
+  font-size: 20px;
+}
+.main{
+  background: linear-gradient(to left, #cc0000 0%, #ff9933 100%);
+}
